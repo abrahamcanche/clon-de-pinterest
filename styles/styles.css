@@ -43,7 +43,7 @@ header{
     display: inline-block;
     padding: 0;
     margin: 5px;
-    /*cursor: pointer; */
+    cursor: pointer;
 }
 
 
@@ -63,6 +63,7 @@ input{
     padding: 8px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(10 50px);
     gap: 16px;
 }
 
