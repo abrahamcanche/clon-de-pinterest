@@ -55,8 +55,9 @@ input{
 }
 
 #content{
+    /*width: 100vw;*/
     width: 425px;
-    background-color: lightsalmon;
+    background-color: white;
     border: 1px;
     margin-top: 80px;
     padding: 8px;
