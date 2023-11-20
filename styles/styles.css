@@ -101,11 +101,17 @@ input{
     grid-row: 6 / 8;
 }
 
+#image-10{
+    grid-row: 8 / 10;
+}
 
+#image-11{
+    grid-row: 9 / 11;
+}
 
-
-
-
+#image-13{
+    grid-row: 11 / 13;
+}
 
 
 
