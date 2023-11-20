@@ -78,10 +78,11 @@ input{
 
 .top-buttons{
     position: absolute;
-    top: 5px;
-    right: 5px;
+    top: 7px;
+    right: 7px;
     opacity: 0;
     transition: opacity 0.3s;
+    overflow: hidden;
 }
 
 .buttons{
@@ -90,6 +91,7 @@ input{
     right: 5px;
     opacity: 0;
     transition: opacity 0.3s;
+    overflow: hidden;
 }
 
 .card-image:hover .top-buttons{
@@ -102,27 +104,24 @@ input{
 
 .button-save{
     background-color: red;
+    color: white;
+    font-weight: bolder;
     border-radius: 20px;
     cursor: pointer;
+    padding: 10px;
 }
 
-.button-share{
+.button-share-and-more{
     background-color: #E5E7E9;
     border-radius: 50%;
     display: inline-block;
-    padding: 0;
+    padding: 10px;
     margin: 5px;
     cursor: pointer;
 }
 
-.button-more{
-    background-color: #E5E7E9;
-    border-radius: 50%;
-    display: inline-block;
-    padding: 0;
-    margin: 5px;
-    cursor: pointer;
-}
+
+
 
 
 
