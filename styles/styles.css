@@ -202,6 +202,9 @@ input{
 }
 
 @media screen and (min-width: 480px) {
+    input{
+        width: 250px;
+    }
     #content{
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
@@ -247,20 +250,51 @@ input{
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (min-width: 950px) {
-    body{
-        background-color: blue;
-        
+    header{
+    justify-content: space-evenly;
+    }
+    input{
+        width: 400px;
+    }
+    #content{
+        margin-left: 200px;
+        margin-right: 150px;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    #image-10{
+        grid-column: 1 / 2;
+        grid-row: 9 / 11;
+    }
+    #image-12{
+        grid-column: 3 / 4;
+        grid-row: 3 / 5;
+    }
+    #image-13{
+        grid-column: 5 / 6;
+        grid-row: 2 / 4;
+    }
+    #image-17{
+        grid-column: 5 / 6;
+        grid-row: 8 / 10;
+    }
+    #image-19{
+        grid-column: 4 / 5;
+        grid-row: 9 / 11;
+    }
+    #image-20{
+        grid-row: 9 / 11;
+    }
+    #image-21{
+        grid-column: 4 / 5;
+        grid-row: 6 / 8;
+    }
+    #image-24{
+        grid-column: 3 / 4;
+        grid-row: 7 / 9;
+    }
+    #image-29{
+        grid-column: 5 / 6;
+        grid-row: 5 / 7;
     }
 }
